@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Övertorneå Aurora & Arctic Adventure</title>
+  <style>
+    :root{--accent:#7ee787;--accent2:#7bd3ff;--glass: rgba(255,255,255,0.06);--card: rgba(255,255,255,0.06);--text:#eef9ff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;color:var(--text);min-height:100vh;display:flex;flex-direction:column}
+
+    /* Aurora background */
+    .aurora-wrap{position:relative;min-height:100vh;overflow:hidden;background:#001018;}
+    .stars{position:absolute;inset:0;background-image:radial-gradient(white 1px, transparent 2px);background-size:3px 3px;opacity:0.06;filter:blur(0.4px)}
+    .aurora{position:absolute;left:-10%;right:-10%;top:-30%;height:70%;background:linear-gradient(120deg, rgba(124,231,135,0.07), rgba(123,211,255,0.06), rgba(170,140,255,0.05));transform:skewY(-12deg);filter:blur(40px);animation:flow 14s linear infinite;mix-blend-mode:screen}
+    .aurora:before,.aurora:after{content:"";position:absolute;inset:0;background:linear-gradient(60deg, rgba(124,231,135,0.12), rgba(123,211,255,0.12), rgba(170,140,255,0.08));opacity:0.95;filter:blur(40px)}
+    @keyframes flow{0%{transform:translateX(-20%) skewY(-12deg)}50%{transform:translateX(20%) skewY(-8deg)}100%{transform:translateX(-20%) skewY(-12deg)}}
+
+    header{position:relative;padding:40px 6% 20px;display:flex;justify-content:space-between;align-items:center;z-index:5}
+    .logo{display:flex;gap:12px;align-items:center}
+    .logo .dot{width:46px;height:46px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-weight:700;color:#012}
+    nav a{color:rgba(255,255,255,0.9);text-decoration:none;margin-left:18px;font-weight:600}
+
+    .hero{padding:64px 6% 40px;display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:center}
+    .hero-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:28px;border-radius:14px;backdrop-filter:blur(6px);box-shadow:0 6px 30px rgba(0,0,0,0.5)}
+    h1{margin:0;font-size:40px;line-height:1.02}
+    p.lead{opacity:0.9;margin-top:12px;color:rgba(230,245,255,0.95)}
+    .cta{margin-top:20px;display:flex;gap:12px}
+    .btn{padding:12px 18px;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#012}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.12);color:var(--text)}
+
+    .toggle{display:flex;gap:8px;margin-top:14px}
+    .pill{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,0.03);cursor:pointer;border:1px solid rgba(255,255,255,0.04)}
+    .pill.active{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#012;border:0}
+
+    .features{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}
+    .feature{padding:12px;border-radius:10px;background:rgba(0,0,0,0.18);}
+    .feature h4{margin:0 0 6px 0}
+    .feature p{margin:0;opacity:0.9}
+
+    .right-card{position:relative}
+    .booking{padding:20px;border-radius:12px;background:linear-gradient(180deg, rgba(2,10,20,0.6), rgba(2,10,20,0.5));}
+    .booking label{display:block;font-size:12px;margin-top:10px;color:rgba(220,235,255,0.85)}
+    .booking input, .booking select{width:100%;padding:10px;margin-top:6px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--text)}
+    .booking .book-btn{margin-top:12px;width:100%}
+
+    /* Sections */
+    main{padding:40px 6%;z-index:5}
+    .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+    .card{background:var(--card);padding:18px;border-radius:12px}
+    footer{padding:30px 6%;opacity:0.95}
+
+    /* Responsive */
+    @media (max-width:880px){.hero{grid-template-columns:1fr;}.right-card{order:2}.hero-card{order:1}}
+
+    /* subtle floating aurora ribbons */
+    .ribbon{position:absolute;left:0;right:0;top:60%;height:18vh;pointer-events:none;opacity:0.18;filter:blur(16px)}
+
+  </style>
+</head>
+<body>
+  <div class="aurora-wrap">
+    <div class="stars"></div>
+    <div class="aurora"></div>
+    <header>
+      <div class="logo">
+        <div class="dot">ÖA</div>
+        <div>
+          <div style="font-weight:800">Övertorneå Aurora</div>
+          <div style="font-size:12px;opacity:0.8">Adventure Center • Cabins • Wellness</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#activities">Activities</a>
+        <a href="#stay">Stay</a>
+        <a href="#book">Book</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-card">
+        <h1 id="hero-title">Winter in Övertorneå — Northern Lights & Snow Adventures</h1>
+        <p class="lead" id="hero-sub">Join night-time Northern Lights safaris, husky sleds, ice fishing and cozy evenings in warm cabins. We run small-group tours for photographers, families and thrill-seekers.</p>
+
+        <div class="cta">
+          <button class="btn btn-primary" onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">Book a Tour</button>
+          <button class="btn btn-ghost" onclick="toggleSeason('winter')">Winter Info</button>
+        </div>
+
+        <div class="toggle" style="margin-top:14px">
+          <div class="pill active" id="btn-winter" onclick="toggleSeason('winter')">Winter</div>
+          <div class="pill" id="btn-summer" onclick="toggleSeason('summer')">Summer</div>
+        </div>
+
+        <div class="features" id="features-list">
+          <div class="feature">
+            <h4>Small-group Aurora Tours</h4>
+            <p>Personalised tours focusing on photography and comfort. Warm shelters and thermal suits included.</p>
+          </div>
+          <div class="feature">
+            <h4>Cozy Cabin Stays</h4>
+            <p>Glass-roof aurora cabins and river-lakeside cottages with sauna and hot tub.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:16px;display:flex;gap:12px">
+          <div style="font-size:13px;opacity:0.85">Average activity price: €120 – €350</div>
+          <div style="margin-left:auto;font-size:13px;opacity:0.85">Open year-round • Small groups</div>
+        </div>
+      </div>
+
+      <div class="right-card">
+        <div class="booking">
+          <strong style="font-size:16px">Quick Booking</strong>
+          <form id="book" onsubmit="event.preventDefault();alert('Thanks! We\'ll contact you shortly. (This is a demo)')">
+            <label>Name<input required placeholder="Your name"/></label>
+            <label>Email<input required type="email" placeholder="you@domain.com"/></label>
+            <label>Season
+              <select>
+                <option>Winter - Aurora & Sleds</option>
+                <option>Summer - River & Hiking</option>
+              </select>
+            </label>
+            <label>Date(s)<input placeholder="YYYY-MM-DD" /></label>
+            <button class="btn btn-primary book-btn">Request Booking</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="activities">
+        <h2>Year-round Activities</h2>
+        <div class="grid-3" style="margin-top:12px">
+          <div class="card">
+            <h3>Winter Highlights</h3>
+            <ul>
+              <li>Northern lights safaris</li>
+              <li>Husky sledding & reindeer experiences</li>
+              <li>Snowmobile tours & ice-fishing</li>
+              <li>Sauna nights & hot tubs under the aurora</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Summer Highlights</h3>
+            <ul>
+              <li>Midnight sun canoeing & fishing</li>
+              <li>Hiking & guided nature safaris</li>
+              <li>Berry foraging & wildlife watching</li>
+              <li>Floating sauna & river cruises</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Packages</h3>
+            <p>Choose from Aurora photographer packages, family adventure packs, and wellness escapes. Custom groups welcome.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="stay" style="margin-top:22px">
+        <h2>Stay with Us</h2>
+        <div class="grid-3" style="margin-top:12px">
+          <div class="card"><h3>Glass-Roof Cabin</h3><p>For couples and photographers — watch the aurora from your bed.</p></div>
+          <div class="card"><h3>Riverside Cottages</h3><p>Family-friendly cottages with sauna and kayaks included.</p></div>
+          <div class="card"><h3>Wellness Suites</h3><p>Sauna, hot tubs and spa packages available year-round.</p></div>
+        </div>
+      </section>
+
+      <section id="why" style="margin-top:22px">
+        <h2>Why Choose Övertorneå?</h2>
+        <div class="grid-3" style="margin-top:12px">
+          <div class="card"><h3>Quiet & Scenic</h3><p>Uncrowded nature — perfect for photography and relaxation.</p></div>
+          <div class="card"><h3>Accessible</h3><p>Near Haparanda-Tornio cross-border region with good transport links.</p></div>
+          <div class="card"><h3>Authentic Culture</h3><p>Tornedalen traditions, food and heritage.</p></div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+        <div>
+          <strong>Övertorneå Aurora & Arctic Adventure</strong>
+          <div style="font-size:13px;opacity:0.85">Address: X, Övertorneå • Email: hello@overtornea.example</div>
+        </div>
+        <div style="opacity:0.9">Follow us: [FB] [IG] • Bookings & Groups</div>
+      </div>
+    </footer>
+
+    <div class="ribbon"></div>
+  </div>
+
+  <script>
+    function toggleSeason(s){
+      const title = document.getElementById('hero-title');
+      const sub = document.getElementById('hero-sub');
+      const btnW = document.getElementById('btn-winter');
+      const btnS = document.getElementById('btn-summer');
+      if(s==='winter'){
+        title.textContent = 'Winter in Övertorneå — Northern Lights & Snow Adventures';
+        sub.textContent = "Join night-time Northern Lights safaris, husky sleds, ice fishing and cozy evenings in warm cabins. Small-group tours and photographer trips available.";
+        btnW.classList.add('active'); btnS.classList.remove('active');
+      } else {
+        title.textContent = 'Summer in Övertorneå — Midnight Sun & River Adventures';
+        sub.textContent = "Explore canoeing under the midnight sun, river cruises, berry picking, guided hikes and wildlife safaris. Peaceful nature escapes for families and explorers.";
+        btnS.classList.add('active'); btnW.classList.remove('active');
+      }
+    }
+  </script>
+</body>
+</html>
