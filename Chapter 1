@@ -1,21 +1,21 @@
 
-# Chapter 1 – Getting Started
+Chapter 1 – Getting Started
 
 This folder contains my completed exercises for Chapter 1 of Python Crash Course.
 
-### Exercise 1-1: python.org
+Exercise 1-1: python.org
 - Visited https://python.org
 - Reviewed the Downloads, Documentation, and Community sections
 
-### Exercise 1-2: Hello World Typos
+Exercise 1-2: Hello World Typos
 - Created intentional errors in a Python script
 - Observed NameError and SyntaxError messages
 - Corrected the mistakes
 
-### Exercise 1-3: Infinite Skills
+Exercise 1-3: Infinite Skills
 - Listed three projects I would create with unlimited programming skill
 
-##  Files in This Folder
+Files in This Folder
 - `exercise_1-1_python_org.txt`
 - `exercise_1-2_typos.py`
 - `exercise_1-3_infinite_skills.txt`
@@ -23,7 +23,7 @@ This folder contains my completed exercises for Chapter 1 of Python Crash Course
 Chapter 1 is complete and ready for review.
 
 
-1)  Infinite Skills — My 3 Project Ideas 
+1)Infinite Skills — My 3 Project Ideas 
 
 Build a full video game (My own Alien Invasion or a 3D world)  
 A game where you design:  
@@ -44,9 +44,7 @@ Exercise 1‑2 — DONE
 
   
 3) Build a website or app that helps people learn programming 
-
 Features you could include: 
-
 SA-ID 
 tutorials 
 code execution 
