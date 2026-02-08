@@ -28,6 +28,9 @@ Exercise 2-1: Simple Message
 <img width="1619" height="713" alt="Test 1" src="https://github.com/user-attachments/assets/37460a52-75c1-405c-b65a-07de46f41b8a" />
 <img width="922" height="516" alt="Capture" src="https://github.com/user-attachments/assets/cb96b295-994c-472e-a85c-eaaa95d2408f" />
 
+[simple_messages.py](https://github.com/user-attachments/files/25163202/simple_messages.py)
+message = "This is my simple message!"
+print(message)
 
 
 
