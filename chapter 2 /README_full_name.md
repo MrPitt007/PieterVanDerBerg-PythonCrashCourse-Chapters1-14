@@ -3,11 +3,11 @@
 Practice using variables, f-strings, `.title()`, and storing a message before printing.
 
 ## Files (click to open)
-- ./full_name.py
-- ./full_name_title.py
-- ./full_name_message.py
-- ./whitespace_demo.py
-- ./strip_whitespace.py
+./full_name.py
+./full_name_title.py
+./full_name_message.py
+./whitespace_demo.py
+./strip_whitespace.py
 
 ---
 
