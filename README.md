@@ -54,21 +54,6 @@ This uses Python + Django or Flask, which you will learn later in the book.
 Exercise 1‑3 — DONE 
 
 
-### Screenshot 1
-![Screenshot 1](../123.PNG)
-
-### Screenshot 2
-![Screenshot 2](../456.PNG)
-
-### Screenshot 3
-![Screenshot 3](../Capture.PNG)
-
-### Screenshot 4
-![Screenshot 4](../Capture.PNG123.PNG)
-
-### Screenshot 5
-![Screenshot 5](../Capture.PNG456.PNG)
-
 
 ![Screenshot 1](https://github.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/blob/main/123.PNG?raw=1)
 ![Screenshot 2](https://github.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/blob/main/456.PNG?raw=1)
