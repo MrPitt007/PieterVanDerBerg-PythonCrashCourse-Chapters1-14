@@ -1,5 +1,5 @@
-- ./full_name.py
-- ./full_name_title.py
-- ./full_name_message.py
-- ./whitespace_demo.py
-- ./strip_whitespace.py
+# full_name_title.py
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"{first_name} {last_name}"
+print(f"Hello, {full_name.title()}!")
