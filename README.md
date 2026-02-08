@@ -55,10 +55,17 @@ Exercise 1‑3 — DONE
 
 
 
-![Screenshot 1](https://github.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/blob/main/123.PNG?raw=1)
-![Screenshot 2](https://github.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/blob/main/456.PNG?raw=1)
-![Screenshot 3](https://github.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/blob/main/Capture.PNG?raw=1)
-![Screenshot 4](https://github.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/blob/main/Capture.PNG123.PNG?raw=1)
-![Screenshot 5](https://github.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/blob/main/Capture.PNG456.PNG?raw=1)
-<img width="953" height="274" alt="Chapter 2 8" src="https://github.com/user-attachments/assets/432aae8f-3495-4f53-a634-92dc47e0283d" />
+
+<img width="965" height="511" alt="Chapter 2 2" src="https://github.com/user-attachments/assets/8052390d-7781-4cf2-901e-05f1a4406f24" />
+<img width="799" height="515" alt="Chapter 2 1" src="https://github.com/user-attachments/assets/32dace7a-ff81-45e3-8a21-d04a7906181a" />
+<img width="790" height="517" alt="Chapter 2" src="https://github.com/user-attachments/assets/de75ec83-5329-4dba-8975-579732d591b8" />
+<img width="903" height="512" alt="Chapter 2 4" src="https://github.com/user-attachments/assets/88b317c6-7d41-404c-a258-68e60b4a11be" />
+<img width="1530" height="908" alt="Chapter 2 3" src="https://github.com/user-attachments/assets/5278e1ca-6f47-44d8-9098-a87c2d69b69f" />
+<img width="787" height="510" alt="Chapter 2 7" src="https://github.<img width="1542" height="952" alt="Chapter 2 6" src="https://github.com/user-attachments/assets/631bd927-ec6c-41d5-9a0d-adb5f480b816" />
+<img width="786" height="510" alt="Chapter 2 5" src="https://github.com/user-attachments/assets/627ed93a-d201-4b03-b129-5d52f0404a65" />
+[variable_naming.py](https://github.com/user-attachments/files/25163102/variable_naming.py)
+[chapter2_variables.py](https://github.com/user-attachments/files/25163101/chapter2_variables.py)
+com/user-attachments/assets/38f64e7d-c263-4512-b86f-125b571dee90" />
+<img width="953" height="274" alt="Chapter 2 8" src="https://github.com/user-attachments/assets/7e8761b9-b282-4860-b080-e802c8dd8113" />
+
 
