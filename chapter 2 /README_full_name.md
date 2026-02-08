@@ -1,8 +1,8 @@
-Chapter 2/full_name.py
-Chapter 2/full_name_title.py
-Chapter 2/full_name_message.py
-Chapter 2/whitespace_demo.py
-Chapter 2/strip_whitespace.py
+- ./full_name.py
+- ./full_name_title.py
+- ./full_name_message.py
+- ./whitespace_demo.py
+- ./strip_whitespace.py
 
 # 2.1 — Names & f‑strings (Chapter 2)
 
