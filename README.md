@@ -60,4 +60,5 @@ Exercise 1‑3 — DONE
 ![Screenshot 3](https://github.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/blob/main/Capture.PNG?raw=1)
 ![Screenshot 4](https://github.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/blob/main/Capture.PNG123.PNG?raw=1)
 ![Screenshot 5](https://github.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/blob/main/Capture.PNG456.PNG?raw=1)
+<img width="953" height="274" alt="Chapter 2 8" src="https://github.com/user-attachments/assets/432aae8f-3495-4f53-a634-92dc47e0283d" />
 
