@@ -24,6 +24,9 @@ Exercise 2-1: Simple Message
 <img width="953" height="274" alt="Chapter 2 8" src="https://github.com/user-attachments/assets/9228ed6b-5877-4891-9660-9ff83c9450dd" />
 <img width="787" height="510" alt="Chapter 2 7" src="https://github.com/user-attachments/assets/b5f1b203-7837-4c82-9b1f-166c30b8d171" />
 <img width="1542" height="952" alt="Chapter 2 6" src="https://github.com/user-attachments/assets/009b747f-2a11-4e52-b724-edaf86718fd4" />
+<img width="984" height="515" alt="This is a String" src="https://github.com/user-attachments/assets/808051e6-01af-4753-ae7c-874440434b17" />
+<img width="1619" height="713" alt="Test 1" src="https://github.com/user-attachments/assets/37460a52-75c1-405c-b65a-07de46f41b8a" />
+<img width="922" height="516" alt="Capture" src="https://github.com/user-attachments/assets/cb96b295-994c-472e-a85c-eaaa95d2408f" />
 
 
 
