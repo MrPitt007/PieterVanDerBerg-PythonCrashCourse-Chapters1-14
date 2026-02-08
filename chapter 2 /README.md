@@ -15,12 +15,15 @@ Exercise 2-11: Zen of Python
 
 ## Screenshots (Chapter 2)
 
-![Chapter 2 – Screenshot 1](https://raw.githubusercontent.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/main/Chapter%202.PNG)
-![Chapter 2 – Screenshot 2](https://raw.githubusercontent.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/main/Chapter%202-2.PNG)
-![Chapter 2 – Screenshot 3](https://raw.githubusercontent.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/main/Chapter%202-3.PNG)
-![Chapter 2 – Screenshot 4](https://raw.githubusercontent.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/main/Chapter%202-4.PNG)
-![Chapter 2 – Screenshot 5](https://raw.githubusercontent.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/main/Chapter%202-5.PNG)
-![Chapter 2 – Screenshot 6](https://raw.githubusercontent.com/MrPitt007/PieterVanDerBerg-PythonCrashCourse-Chapters1-14/main/Chapter%202-6.PNG)
+<img width="903" height="512" alt="Chapter 2 4" src="https://github.com/user-attachments/assets/9d6873df-6f33-437c-a3de-45e726ff77a5" />
+<img width="1530" height="908" alt="Chapter 2 3" src="https://github.com/user-attachments/assets/1aedacbe-21cb-452a-abb1-ccb5fe9c11a7" />
+<img width="965" height="511" alt="Chapter 2 2" src="https://github.com/user-attachments/assets/a3a6400e-7dd3-493d-9b15-81fc85a494e7" />
+<img width="799" height="515" alt="Chapter 2 1" src="https://github.com/user-attachments/assets/9dfd6fd9-e663-4423-b8a6-1ef67a3c9193" />
+<img width="790" height="517" alt="Chapter 2" src="https://github.com/user-attachments/assets/cc3a8286-157e-4a3f-9c12-493a760b802d" />
+<img width="786" height="510" alt="Chapter 2 5" src="https://github.com/user-attachments/assets/83400028-0222-457f-bd81-2d1d033db4dc" />
+<img width="953" height="274" alt="Chapter 2 8" src="https://github.com/user-attachments/assets/9228ed6b-5877-4891-9660-9ff83c9450dd" />
+<img width="787" height="510" alt="Chapter 2 7" src="https://github.com/user-attachments/assets/b5f1b203-7837-4c82-9b1f-166c30b8d171" />
+<img width="1542" height="952" alt="Chapter 2 6" src="https://github.com/user-attachments/assets/009b747f-2a11-4e52-b724-edaf86718fd4" />
 
 
 
