@@ -14,8 +14,8 @@ Exercise 2-11: Zen of Python
 
 
 ## Screenshots (Chapter 2)
-
-<img width="903" height="512" alt="Chapter 2 4" src="https://github.com/user-attachments/assets/9d6873df-6f33-437c-a3de-45e726ff77a5" />
+Exercise 2-1: Simple Message  
+<img width="903" height="512" alt="Chapter 2 4" src="https://github.com/user-attachments/assets/1965fa5a-fb35-4f41-9703-1134e0280f5d" />
 <img width="1530" height="908" alt="Chapter 2 3" src="https://github.com/user-attachments/assets/1aedacbe-21cb-452a-abb1-ccb5fe9c11a7" />
 <img width="965" height="511" alt="Chapter 2 2" src="https://github.com/user-attachments/assets/a3a6400e-7dd3-493d-9b15-81fc85a494e7" />
 <img width="799" height="515" alt="Chapter 2 1" src="https://github.com/user-attachments/assets/9dfd6fd9-e663-4423-b8a6-1ef67a3c9193" />
