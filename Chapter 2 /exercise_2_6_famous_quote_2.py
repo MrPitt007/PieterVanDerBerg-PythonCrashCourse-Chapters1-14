@@ -1,0 +1,1 @@
+exercise_2_6_famous_quote_2.py
