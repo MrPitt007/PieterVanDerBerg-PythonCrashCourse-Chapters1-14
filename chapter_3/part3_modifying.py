@@ -1,0 +1,9 @@
+
+# Chapter 3 - Part 3: Modifying, Adding, and Removing Elements
+# ------------------------------------------------------------
+# Mirrors the book's flow:
+# - Change list items by index
+# - Add items with append() and insert()
+# - Remove items with del, pop(), and remove()
+# - Use popped values in messages
+# - Note: remove() deletes only the first occurrence
