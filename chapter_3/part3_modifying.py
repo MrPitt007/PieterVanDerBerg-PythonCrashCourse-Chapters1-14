@@ -11,3 +11,7 @@
 # Start with a simple list
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print("Original list:", motorcycles)
+
+# 1) Modify an element (replace by index)
+motorcycles[0] = 'ducati'
+print("After modifying index 0:", motorcycles)
