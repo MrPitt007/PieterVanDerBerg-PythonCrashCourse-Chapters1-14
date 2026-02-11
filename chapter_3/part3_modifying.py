@@ -16,7 +16,6 @@ print("Original list:", motorcycles)
 motorcycles[0] = 'ducati'
 print("After modifying index 0:", motorcycles)
 
-
 # 2) Add elements
 # 2a) Append adds to the end
 motorcycles.append('harley-davidson')
