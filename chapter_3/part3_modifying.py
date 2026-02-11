@@ -7,3 +7,7 @@
 # - Remove items with del, pop(), and remove()
 # - Use popped values in messages
 # - Note: remove() deletes only the first occurrence
+
+# Start with a simple list
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print("Original list:", motorcycles)
