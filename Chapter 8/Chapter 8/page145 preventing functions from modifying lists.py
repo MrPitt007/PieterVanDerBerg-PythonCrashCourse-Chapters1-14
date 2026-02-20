@@ -1,5 +1,4 @@
 
-
 def print_models(unprinted_designs, completed_models):
     """
     Simulate printing each design, moving items from unprinted_designs
