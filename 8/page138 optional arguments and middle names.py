@@ -1,4 +1,5 @@
 
+
 def get_formatted_name_full(first_name, middle_name, last_name):
     """Return a full name including first, middle, and last."""
     full_name = f"{first_name} {middle_name} {last_name}"
