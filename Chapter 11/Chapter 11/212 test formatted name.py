@@ -1,5 +1,5 @@
 
-from chapter_11_211_testing_a_function import get_formatted_name
+from chapter 11 211 testing a function import get ormatted name
 
 def test_first_last_name():
     """Test that a first and last name are formatted correctly."""
